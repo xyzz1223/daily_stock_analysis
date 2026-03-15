@@ -2,7 +2,7 @@ name: schedule-test
 
 on:
   schedule:
-    - cron: '52 4 * * *'   # 示例：北京时间 11:17
+    - cron: '*/5 * * * *'
   workflow_dispatch:
 
 jobs:
